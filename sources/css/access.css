@@ -1,0 +1,44 @@
+.channels-top {
+  padding: 16px 0;
+  background: url('../images/access/channels-top-bg.png') no-repeat;
+}
+.online-channels-table td {
+  border: #cccccc 1px solid;
+}
+.offline-channels-cont {
+  border-top: 0;
+  overflow: hidden;
+}
+.corporate-customers ul {
+  border-top: 0;
+  height: 219px;
+  overflow: hidden;
+  background: url('../images/access/corporate-bg.png') repeat-x;
+}
+.corporate-customers ul li {
+  padding: 0 10px 18px 13px;
+}
+.stores-block-img {
+  padding: 4px 5px 5px;
+}
+.offline-join-us {
+  right: 10px;
+  bottom: 5px;
+}
+.distributors-block ul {
+  height: 139px;
+}
+.adress-block ul {
+  height: 129px;
+}
+.vip-card img {
+  padding: 18px 0 15px 0;
+}
+.salon-members ul {
+  width: 476px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+.salon-members ul li {
+  margin: 8px 8px 0 0;
+}

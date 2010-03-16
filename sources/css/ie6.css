@@ -7,3 +7,10 @@
 #footer-language a {
   margin-right: 9px;
 }
+.offline-join-us {
+  right: 10px;
+  _bottom: 34px;
+}
+.new-links-blocks li.new-links-five dd {
+  _height: 115px; 
+}
