@@ -1,9 +1,5 @@
-.index-block {
-  width: 1000px;
-  overflow: hidden;
-}
-.index-block-cont {
-  width: 1058px;
+.ml57 {
+  margin-left: 57px;
 }
 .offical-notice-list {
   height: 155px;
@@ -113,3 +109,37 @@
     text-align: center;
 }
 /* }}} */          
+#carousel {
+  height: 327px;
+  overflow: hidden;
+}
+.carousel-block {
+  margin: 0 auto;
+  width: 1000px;
+  height: 327px;
+}
+.carousel-block .carousel,
+.carousel-block img {
+  width: 1000px;
+  height: 327px;
+}
+.carousel-block .next,
+.carousel-block .prev {
+  float: left;
+  width: 20px;
+  height: 32px;
+  top: 153px;
+  left: -32px;
+  position: relative;
+  background: url('../images/base/icon.png') no-repeat -118px -63px;
+}
+.carousel-block .next {
+  float: right;
+  left: 32px;
+  top: -204px;
+  background: url('../images/base/icon.png') no-repeat -148px -63px;
+}
+.carousel {
+  top: -32px;
+}
+

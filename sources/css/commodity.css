@@ -1,7 +1,7 @@
-body {
+body.commodity-page {
   background: url('../images/commodity/list-body-bg.png') repeat-x;
 }
-body #content {
+body.commodity-page #content {
   margin-top: 17px;
 }
 /* 商品首页样式 {{{ */
