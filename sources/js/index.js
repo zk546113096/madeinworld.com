@@ -1,6 +1,7 @@
 $(document).ready(function() {
   $('.top-menu-text').toggleInputText();
   $('.header-search-text').toggleInputText();
+  $('.footer-links-text').toggleInputText();
 
   $('.header-search-tabs > li').click(function() {/* 首页 搜索框 切换 {{{ */
     $(this).addClass('current').siblings().removeClass('current');

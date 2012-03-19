@@ -2,12 +2,12 @@ $(document).ready(function() {
   $.fn.toggleInputText = function() { /* toggle input {{{ */
     var v = $(this).val(); 
     if($(this).val() == "")
-      $(this).val(v).css({'color' : '#ccc'});
+      $(this).val(v).css({'color' : '#898888'});
     $(this).focus(function(){
       $(this).val('').select().css({'color' : '#000'});
     }).blur(function(){
       if($(this).val()==""){
-         $(this).val(v).css({'color' : '#ccc'});
+         $(this).val(v).css({'color' : '#898888'});
       }
     });
   };/* }}} */

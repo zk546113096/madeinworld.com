@@ -1,16 +1,47 @@
+/* top menu {{{ */
 .top-menu-text {
   width: 140px;
 }
 .top-menu-ul-line {
   margin-top: -2px;
 }
-#footer-language a {
-  margin-right: 9px;
-}
+/* }}} */
+/* 渠道通道 {{{ */
 .offline-join-us {
   right: 10px;
   _bottom: 34px;
 }
+/* }}} */
+/* 尾部 {{{ */
+#footer-language a {
+  margin-right: 9px;
+}
 .new-links-blocks li.new-links-five dd {
   _height: 115px; 
 }
+.footer-links-form div.lf {
+  width: 465px;
+}
+.footer-links-form div.rt {
+  width: 340px;
+}
+.footer-links-form input {
+  height: 17px;
+}
+input.footer-search-btn,
+input.footer-email-btn {
+  height: 20px;
+}
+.footer-links-list-02 li {
+  width: 50px;
+}
+.footer-links-list-03 li.even {
+  width: 95px;
+}
+.footer-links-list-04 li.even {
+  width: 60px;
+}
+.footer-links-cont {
+  _padding-bottom: 27px;
+}
+/* }}} */

@@ -81,6 +81,7 @@ a {
 .clearfix { display: block; }
 #header,
 #footer-cont,
+.footer-links,
 .new-links {
   width: 1000px;
   margin: 0 auto;
@@ -102,7 +103,7 @@ a {
   width: 150px;
   padding: 0 5px;
   border: 0;
-  color: #cccccc;
+  color: #898888;
   height: 20px;
   line-height: 20px;
 }
@@ -168,7 +169,7 @@ a {
   width: 175px;
   height: 20px;
   border: 0;
-  color: #cccccc;
+  color: #898888;
   line-height: 20px;
   margin: 4px 0 0 8px;
 }
@@ -260,8 +261,85 @@ a {
     height: 131px;
 }
 /* }}} */
+/* footer links style {{{ */
+.footer-links-form {
+  padding: 0 15px;
+}
+.footer-links-form select {
+  width: 90px;
+}
+.footer-links-form input {
+  width: 190px;
+}
+.footer-links-form select,
+.footer-links-form label,
+.footer-links-form input {
+  height: 20px;
+  line-height: 18px;
+  margin-right: 10px;
+}
+.footer-links-form select,
+.footer-links-form input {
+  color: #898888;
+}
+.footer-links-form label {
+  color: #000000;
+}
+.footer-links-form div.lf {
+  width: 455px;
+}
+.footer-links-form div.rt {
+  width: 327px;
+}
+input.footer-search-btn {
+  width: 45px;
+  border: 0;
+  color: #000000;
+  line-height: 18px;
+  background: url('../images/base/footer-search-bg.png') no-repeat;
+}
+input.footer-email-btn {
+  width: 69px;
+  border: 0;
+  color: #000000;
+  line-height: 18px;
+  margin-right: 0;
+  background: url('../images/base/footer-email-bg.png') no-repeat;
+}
+.footer-links-cont {
+  height: 123px;
+  padding-top: 65px;
+  background: url('../images/base/footer-links-bg.png') no-repeat;
+}
+.footer-links-list {
+  padding-left: 30px;
+  width: 150px;
+}
+.footer-links-list li {
+  padding-left: 10px;
+  background: url('../images/base/icon.png') no-repeat -950px 3px;
+}
+.footer-links-list-01 {
+  padding-left: 40px;
+}
+.footer-links-list-02 li,
+.footer-links-list-03 li {
+  padding-right: 10px;
+}
+.footer-links-list-03 {
+  padding-left: 220px;
+  width: 202px;
+}
+.footer-links-list-04 {
+  padding-left: 40px;
+  width: 165px;
+}
+.footer-links-list-04 li {
+  padding-right: 20px;
+}
+/* }}} */
 #footer {
-  background: url('../images/base/footer-bg.png') repeat-x 0 350px;
+  background: url('../images/base/footer-bg.png') repeat-x 0 704px;
 }
 #footer-cont {
   margin-top: 30px;
