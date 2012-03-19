@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<slideshowConfig>
+	<img_margein>10</img_margein>
+	<border_margein>0</border_margein>
+	<background_image></background_image>
+	<display_size>250;92</display_size>
+	<numberOfRows>2</numberOfRows>
+	<row_first_display>2;4</row_first_display>
+	<link_behavior>_blank</link_behavior>
+</slideshowConfig>

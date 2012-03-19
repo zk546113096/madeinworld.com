@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<loadinganimConfig>
+	<anim>
+		<type>circle</type> <!-- possible types are : 'Hbar','Vbar','circle','sun' || default value is : Hbar -->
+		<size>25;3</size> <!-- 'length;thickness'(if progress bar) or 'radius;thickness'(if circle or sun) || default value is : '50;3'(if progress bar) or '25;3' -->
+		<colors>0x000000;;0x000000;0x000000</colors> <!-- 'frontcolor;frontstrokecolor;backcolor;backstrokecolor' || default value is : '0xFFFFFF;;0x999999;0x333333'  -->
+		<opacity>0.8;0;1;1</opacity> <!-- 'frontopacity;frontstrokeopacity;backopacity;backstrokeopacity' || default value is : '1;;1;1'  -->
+		<effects> <!-- effects to be aplied on the animation and/or the text || default value is : not set  -->
+			<dropshadow>
+				<target></target> <!-- specify if the effect must be applied to : 'text','anim','both' || default value is : not set -->
+				<distance>10</distance> <!-- Number (default = 4.0) — Offset distance for the shadow, in pixels -->
+				<angle>45</angle> <!-- Number (default = 45) — Angle of the shadow, 0 to 360 degrees -->
+				<color>0x000000</color> <!-- uint (default = 0x000000) — Color of the shadow, in hexadecimal format -->
+				<opacity>0.8</opacity> <!-- Number (default = 1.0) —  transparency value for the shadow color. Valid values are 0.0 to 1.0 -->
+				<blurx>8</blurx> <!-- Number (default = 4.0) — Amount of horizontal blur. Valid values are 0 to 255.0 -->
+				<blury>8</blury> <!-- Number (default = 4.0) — Amount of vertical blur. Valid values are 0 to 255.0 -->
+				<strength>0.85</strength> <!-- Number (default = 1.0) — The strength of the imprint or spread. The higher the value, the more color is imprinted and the stronger the contrast between the shadow and the background. Valid values are 0 to 255.0 -->
+				<quality>4</quality> <!-- integer (default = 1) — The number of times to apply the filter -->
+				<inner>false</inner> <!-- Boolean (default = false) — Indicates whether or not the shadow is an inner shadow. A value of true specifies an inner shadow. A value of false specifies an outer shadow (a shadow around the outer edges of the object) -->
+				<knockout>false</knockout> <!-- Boolean (default = false) — Applies a knockout effect (true), which effectively makes the object's fill transparent and reveals the background color of the document.  -->
+				<hideObject></hideObject> <!-- Boolean (default = false) — Indicates whether or not the object is hidden. A value of true indicates that the object itself is not drawn; only the shadow is visible.  -->
+			</dropshadow>
+			<glow>
+				<target>anim</target> <!-- specify if the effect must be applied to : 'text','anim','both' || default value is : not set -->
+				<distance>0</distance> <!-- Number (default = 4.0) — Offset distance for the glow, in pixels -->
+				<angle>0</angle> <!-- Number (default = 45) — Angle of the glow, 0 to 360 degrees -->
+				<colors>0x888888;0x444444;0x000000</colors> <!-- list of colors separated by ';' (default = '0xFFFFFF;') — Colors of the glow, in hexadecimal format -->
+				<opacity>0;0.5;0.8</opacity> <!-- list of opacity separated by ';' (default = '1.0;') —  transparency value for the glow colors. Valid values are 0.0 to 1.0 -->
+				<ratios>10;50;90</ratios> <!-- list of ratios separated by ';' (default = '0;') —  Valid values are 0 to 100. This value defines the percentage of the width where the color is sampled at 100 percent -->
+				<blurx>8</blurx> <!-- Number (default = 4.0) — Amount of horizontal blur. Valid values are 0 to 255.0 -->
+				<blury>8</blury> <!-- Number (default = 4.0) — Amount of vertical blur. Valid values are 0 to 255.0 -->
+				<strength>2</strength> <!-- Number (default = 1.0) — The strength of the imprint or spread. The higher the value, the more color is imprinted and the stronger the contrast between the shadow and the background. Valid values are 0 to 255.0 -->
+				<quality>1</quality> <!-- integer (default = 1) — The number of times to apply the filter -->
+				<type>outer</type> <!--  (default = "inner") — The placement of the filter effect. Possible values are 'inner';'outer';'full' -->
+				<knockout>false</knockout> <!-- Boolean (default = false) — Applies a knockout effect (true), which effectively makes the object's fill transparent and reveals the background color of the document.  -->
+			</glow>
+		</effects>
+	</anim>
+	<percenttext>
+		<size>12</size> <!-- default value is : '12' -->
+		<color>0x000000</color> <!-- default value is : '0x333333' -->
+		<font>Verdana</font> <!-- default value is : not set -->
+		<opacity>1</opacity> <!-- a number between '0'(full transparent) and '1'(full opacity) || default value is : '1' -->
+		<bold>false</bold> <!-- 'true' or 'false' || default value is : 'false' -->
+		<position>center</position> <!-- text position relative to animation. Available settings : 'top','bottom','left','right','center' || default value is : top -->
+	</percenttext>
+</loadinganimConfig>

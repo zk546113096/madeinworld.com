@@ -25,3 +25,11 @@
 .loggoss-china-list li {
   width: 150px;
 }
+.global-office-flash {
+  border-top: 0;
+  padding: 9px 0 6px 0;
+}
+.global-office-flash iframe {
+  scroll: normal;
+  border: 0;
+}
