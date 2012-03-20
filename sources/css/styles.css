@@ -322,6 +322,9 @@ input.footer-email-btn {
 .footer-links-list-01 {
   padding-left: 40px;
 }
+.footer-links-list li a {
+  color: #000000;
+}
 .footer-links-list-02 li,
 .footer-links-list-03 li {
   padding-right: 10px;
@@ -360,7 +363,7 @@ input.footer-email-btn {
 #footer-language a {
   width: 37px;
   height: 44px;
-  margin-right: 6px;
+  margin-right: 3px;
   display: inline-block;
 }
 /* close commented backslash hack */
@@ -455,6 +458,9 @@ input.footer-email-btn {
 .ml10 {
 	margin-left: 10px;
 }
+.ml58 {
+  margin-left: 58px;
+}
 .mt10 {
 	margin-top: 10px;
 }
@@ -532,6 +538,9 @@ input.footer-email-btn {
 .color-880b0b {
 	color: #880b0b;
 }
+.color-8a0e0e {
+	color: #8a0e0e;
+}
 .color-000000 {
   color: #000000;
 }
@@ -583,6 +592,10 @@ input.footer-email-btn {
   display: block;
 }
 /* width */
+.w295 {
+  width: 295px;
+  overflow: hidden;
+}
 .w310 {
   width: 310px;
   overflow: hidden;

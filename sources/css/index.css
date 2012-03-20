@@ -1,0 +1,110 @@
+.index-block {
+  width: 1000px;
+  overflow: hidden;
+}
+.index-block-cont {
+  width: 1058px;
+}
+.offical-notice-list {
+  height: 155px;
+  padding: 0 10px;
+  overflow: hidden;
+}
+.offical-notice-list li.li-new {
+  background: url('../images/base/icon.png') no-repeat right -59px;
+}
+.offical-notice-list li.li-hot {
+  background: url('../images/base/icon.png') no-repeat right -36px;
+}
+.offical-notice-list li label {
+  padding-left: 10px;
+  background: url('../images/base/icon.png') no-repeat -947px -21px;
+}
+.free-register {
+  width: 285px;
+  height: 135px;
+  background: url('../images/index/free-register.png') no-repeat;
+}
+.free-register li a {
+  width: 132px;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  font-size: 16px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.free-register-member {
+  width: 275px;
+  height: 38px;
+  line-height: 38px;
+  display: inline-block;
+}
+.b2c-block-top {
+  height: 38px;
+  font-size: 18px;
+  color: #730331;
+  font-weight: bold;
+  padding-left: 20px;
+  line-height: 38px;
+  background: url('../images/base/links-tab-bg.png') repeat-x;
+}
+/* B2C在售 {{{ */
+.hj-content {
+    background: url("../images/index/big_bg.jpg") no-repeat scroll 0 0 transparent;
+    height: 649px;
+}
+.sale {
+    float: left;
+    margin-top: 25px;
+    overflow: hidden;
+    width: 292px;
+}
+.hongjiu_list {
+    float: right;
+    padding-right: 18px;
+    width: 672px;
+}
+.hongjiu_list .homelist .products-grid {
+    clear: both;
+    height: 300px;
+    margin-top: 10px;
+    overflow: hidden;
+    position: relative;
+    width: 672px;
+}
+.hongjiu_list .products-grid li {
+    margin-bottom: 0;
+    overflow: hidden;
+    padding-top: 25px;
+    text-align: center;
+    width: 168px;
+}
+.products-grid li.item {
+    float: left;
+}
+.products-grid .product-image {
+    display: block;
+    margin: 0 0 10px;
+    overflow: hidden;
+}
+.products-grid .product-name a {
+    display: inline-block;
+    font-size: 12px;
+    margin-bottom: 2px;
+    overflow: hidden;
+    font-weight: normal;
+    height: 15px;
+    line-height: 15px;
+    margin: 0 0 5px;
+    text-align: center;
+    width: 185px;
+}
+.products-grid .price-box {
+    color: #880B0B;
+    margin: 0;
+    clear: both;
+    text-align: center;
+}
+/* }}} */          
