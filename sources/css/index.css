@@ -21,10 +21,15 @@
   background: url('../images/base/icon.png') no-repeat -947px -21px;
 }
 .free-register {
-  width: 285px;
+  width: 275px;
   height: 135px;
+  overflow: hidden;
   background: url('../images/index/free-register.png') no-repeat;
 }
+.free-register ul {
+  width: 285px;
+}
+
 .free-register li a {
   width: 132px;
   height: 38px;
