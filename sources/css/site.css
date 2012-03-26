@@ -1,0 +1,85 @@
+#register-block {
+  width: 926px;
+  margin: 0 auto;
+  height: 528px;
+  background: url('../images/site/register-bg.jpg') no-repeat;
+}
+#register-block h2 {
+  margin-left: 75px;
+  padding-top: 30px;
+}
+.register-lf-block {
+  width: 500px;
+  padding-left: 85px;
+  padding-top: 20px;
+}
+.register-lf-block form label.lf {
+  width: 80px;
+  text-align: right;
+}
+.register-lf-block div.rt {
+  width: 420px;
+}
+.register-lf-block .rows {
+  margin-top: 5px;
+  line-height: 30px;
+}
+.register-lf-block .rows input {
+  width: 210px;
+  height: 28px;
+  line-height: 28px;
+}
+.register-lf-block .rows .yzm-input input {
+  width: 70px;
+  height: 20px;
+  line-height: 20px;
+}
+.register-rt-block {
+  width: 200px;
+} 
+.tiaokuan-checkbox input.lf {
+  width: auto;
+  margin-top: 1px;
+}
+.register-lf-block .rows .register-btn input {
+  width: 89px;
+  height: 33px;
+  border: 0;
+  margin-right: 20px;
+  background: url('../images/site/register-btn.jpg') no-repeat;
+}
+.register-rt-block {
+  width: 280px;
+  padding-top: 25px;
+}
+.register-list {
+  margin-top: 20px;
+}
+.register-list ul {
+  padding: 20px 78px;
+}
+.register-list li {
+  width: 217px;
+}
+.register-list li.li-two {
+  margin: 0 59px;
+}
+.register-list li p {
+  line-height: 30px;
+}
+.register-list li a {
+  width: 169px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  color: #ffffff;
+  display: inline-block;
+  background: url('../images/site/btn-bg.jpg') no-repeat;
+}
+.h150 {
+  height: 150px;
+}
+.register-list {
+  height: 460px !important;
+  background: url('../images/site/register-list-bg.jpg') no-repeat !important;
+}

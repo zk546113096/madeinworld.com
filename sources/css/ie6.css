@@ -45,3 +45,13 @@ input.footer-email-btn {
   _padding-bottom: 27px;
 }
 /* }}} */
+/* 注册页 {{{ */
+.register-lf-block .rows input {
+  height: 25px;
+  line-height: 25px;
+}
+.register-lf-block .rows .yzm-input input {
+  height: 17px;
+  line-height: 17px;
+}
+/* }}} */
