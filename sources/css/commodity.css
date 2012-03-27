@@ -1,0 +1,137 @@
+body {
+  background: url('../images/commodity/body-bg.png') repeat-x;
+}
+body #content {
+  margin-top: 18px;
+}
+.commodity-name {
+  width: 150px;
+  height: 35px;
+  line-height: 35px;
+  background: #644f41;
+  padding: 0 10px;
+}
+.commodity-top ul {
+  height: 27px;
+  line-height: 27px;
+  padding: 4px 0;
+}
+.commodity-top ul li {
+  padding: 0 5px;
+}
+.commodity-top ul li,
+.commodity-top ul li a {
+  color: #ffffff;
+  font-size: 13px;
+}
+.commodity-top ul li.commodity-top-line {
+  padding: 0;
+}
+.commodity-top ul li.commodity-top-bg {
+  width: 72px;
+  height: 27px;
+  padding: 0;
+  margin: 0 10px;
+  text-align: center;
+  background: url('../images/commodity/commodity-top-bg.png') no-repeat;
+}
+.commodity-vertical-menu {
+  width: 100px;
+}
+.commodity-vertical-menu li {
+  float: left;
+}
+.commodity-vertical-menu li a {
+  float: left;
+  width: 80px;
+  height: 34px;
+  line-height: 34px;
+  padding-left: 20px;
+  border-bottom: #a3968c 1px solid;
+  background: #cbc1b9;
+  font-size: 12.5px;
+  color: #000000;
+  font-weight: bold;
+}
+.commodity-vertical-menu li.last-li a {
+  border-bottom: none;
+}
+.commodity-vertical-menu li.current a {
+  background: #836f60;
+  color: #ffffff;
+}
+.commodity-vertical-hover {
+  left: 100px;
+  top: 0;
+  z-index: 999999;
+}
+.commodity-vertical-hover li {
+  width: 162px;
+  height: 279px;
+  padding-left: 10px;
+  display: none;
+  background: url('../images/commodity/commodity-vertical-hover.png') no-repeat;
+}
+.commodity-vertical-hover div {
+  width: 162px;
+  padding: 6px 0 12px 0;
+}
+.commodity-ver-hover-01 {
+  height: 66px;
+}
+.commodity-ver-hover-02 {
+  height: 88px;
+}
+.commodity-vertical-hover a {
+  float: left;
+  color: #ffffff;
+  margin-right: 10px;
+  white-space: nowrap;
+  word-wrap: break-word;
+}
+.commodity-switch-blocks li {
+  display: none;
+}
+.commodity-switch-blocks li.current {
+  display: block;
+}
+.commodity-cycle-rt {
+  width: 218px;
+  _width: 215px;
+  overflow: hidden;
+}
+#commodity-cycle {
+  width: 682px;
+  height: 278px;
+}
+#commodity-nav {
+  z-index: 50;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+#commodity-nav a {
+  width: 10px;
+  height: 10px;
+  background: #ffffff;
+  display: inline-block;
+  text-indent: -3000px;
+  margin-left: 4px;
+  float: left;
+  font-size: 0px;
+}
+#commodity-nav a.activeSlide {
+  background: #700007;
+}
+#commodity-nav a:focus {
+  outline: none;
+}
+#content .commodity-block h3 {
+  height: 24px;
+  line-height: 24px;
+  border-top: #e4e4e4 1px solid;
+  border-bottom: #730301 2px solid;
+}
+#content .commodity-block h3 a {
+  background-position: 15px -99px;
+}　
