@@ -1,4 +1,7 @@
 $(document).ready(function() {
+  $.fn.isChildAndSelfOf = function(b) {
+    return (this.closest(b).length > 0);
+  };
     /* cycle 轮播 {{{ */
     $('#commodity-cycle') 
     .cycle({ 
@@ -8,40 +11,21 @@ $(document).ready(function() {
         pager:     '#commodity-nav',
         slideExpr: 'img'
     });/* }}} */
-  recursive_mouseout($('.commodity-switch-tabs'));
-  //$('.commodity-switch-tabs > li').hover(function() {/* tab 鼠标经过切换 切换 {{{ */
-  //  $(this).addClass('current').siblings().removeClass('current');
-
-  //  var idx = $('.commodity-switch-tabs > li').index(this);
-  //  $('.commodity-switch-blocks > li:eq(' + idx + ')').addClass('current').siblings().removeClass('current');
-  //  return false;
-  //}, function() {
-  //  var that = $(this);
-  //  setTimeout(function() {
-  //    that.removeClass('current');
-  //    var idx = $('.commodity-switch-tabs > li').index(that);
-  //    $('.commodity-switch-blocks > li:eq(' + idx + ')').removeClass('current');
-  //  }, 500);
-
-  //  return false;
-  //});/* }}} */
-
-
-    
+	$('.commodity-switch-tabs > li').mouseover(function() {/* tab 鼠标经过切换 切换 {{{ */
+	  var that = $(this);
+	  $(this).addClass('current').siblings().removeClass('current');
+	  var idx = $('.commodity-switch-tabs > li').index(this);
+	  $('.commodity-switch-blocks > li:eq(' + idx + ')').addClass('current').siblings().removeClass('current');
+	  $(document).mouseover(function(event) {
+		if(!$(event.target).isChildAndSelfOf('#commodity-hover') && !$(event.target).isChildAndSelfOf('#commodity-vertical-menu')) {
+		  setTimeout(function() {
+			that.removeClass('current');
+			var idx = $('.commodity-switch-tabs > li').index(that);
+			$('.commodity-switch-blocks > li:eq(' + idx + ')').removeClass('current');
+		  }, 500);
+		}
+		return false;
+	  });
+	  return false;
+	});
 });
-
-/**
- * Recursive bind mouseout event
- */
-function recursive_mouseout(elm) {
-  elm.parent().bind('mouseover', function(e) {
-    //TODO 
-    console.log("mouse out");
-  });
-  console.log(elm.get(0).tagName);
-  if (elm.get(0).tagName == 'BODY') {
-    return true;
-  } else {
-    recursive_mouseout(elm.parent());
-  }
-}
