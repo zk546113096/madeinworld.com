@@ -55,3 +55,11 @@ input.footer-email-btn {
   line-height: 17px;
 }
 /* }}} */
+/* 乐歌资源 {{{ */
+.resources-sidebar ul {
+  _height: 400px;
+}
+.resources-sidebar ul li {
+  margin-left: 10px;
+｝
+/* }}} */

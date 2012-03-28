@@ -33,3 +33,42 @@
 .global-office-flash iframe {
   border: 0;
 }
+.resources-sidebar ul {
+  _height: 400px;
+  min-height: 400px;
+}
+.resources-sidebar ul,
+.resources-sidebar {
+  width: 170px;
+}
+.resources-sidebar ul {
+  background: url('../images/resources/middle_bg.gif') repeat-y right 0;
+}
+.resources-sidebar ul li {
+  border-bottom: 1px dotted #E0DDDD;
+  margin-left: 25px;
+  _margin-left: 10px;
+  margin-top: 5px;
+  overflow: hidden;
+  padding-bottom: 5px;
+  width: 130px;
+  text-align: center;
+}
+.resources-sidebar ul li a {
+  display: block;
+  height: 23px;
+  line-height: 23px;
+  overflow: hidden;
+  text-align: center;
+  width: 124px;
+}
+.resources-sidebar ul li.li-hover a,
+.resources-sidebar ul li.current a {
+  background: url('../images/resources/li_hover.gif') no-repeat;
+}
+.resources-cont {
+  line-height: 22px;
+  overflow: hidden;
+  padding-right: 10px;
+  width: 785px;
+}
