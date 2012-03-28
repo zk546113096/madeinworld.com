@@ -34,7 +34,6 @@
   border: 0;
 }
 .resources-sidebar ul {
-  _height: 400px;
   min-height: 400px;
 }
 .resources-sidebar ul,
@@ -47,7 +46,6 @@
 .resources-sidebar ul li {
   border-bottom: 1px dotted #E0DDDD;
   margin-left: 25px;
-  _margin-left: 10px;
   margin-top: 5px;
   overflow: hidden;
   padding-bottom: 5px;
