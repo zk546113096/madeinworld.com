@@ -1,3 +1,4 @@
+/* register style {{{ */
 #register-block {
   width: 926px;
   margin: 0 auto;
@@ -83,3 +84,72 @@
   height: 460px !important;
   background: url('../images/site/register-list-bg.jpg') no-repeat !important;
 }
+/* }}} */
+/* login style {{{ */
+#login-block {
+  width: 926px;
+  margin: 0 auto;
+  height: 339px;
+  background: url('../images/site/login-bg.jpg') no-repeat;
+}
+.login-block-lf {
+  width: 370px;
+  margin: 30px 0 0 30px;
+}
+#login-block h2 {
+  margin-left: 50px;
+}
+.login-form div.rows {
+  padding-top: 30px;
+}
+.login-form div.rows label {
+  width: 60px;
+  line-height: 30px;
+  text-align: right;
+}
+.login-form div.rows input {
+  width: 210px;
+  height: 30px;
+  float: left;
+  line-height: 30px;
+}
+.login-text {
+  color: #898888;
+}
+.login-form div.rows input.login-checkbox {
+  width: auto;
+  height: auto;
+  margin: 9px 7px 0 10px;
+}
+.login-form div.rows .login-buttons input {
+  width: 89px;
+  height: 34px;
+  border: 0;
+}
+.login-submit-btn {
+  background: url('../images/site/login-submit-btn.jpg') no-repeat;
+}
+.login-reset-btn {
+  margin-left: 40px;
+  background: url('../images/site/login-reset-btn.jpg') no-repeat;
+}
+.login-register-btn {
+  display: inline-block;
+  width: 89px;
+  height: 34px;
+  background: url('../images/site/login-register-btn.jpg') no-repeat;
+}
+.login-block-rt {
+  width: 360px;
+  margin: 30px 57px 0 0;
+}
+.login-block-rt ul li {
+  width: 170px;
+  margin-top: 20px;
+  margin-right: 10px;
+  height: 70px;
+}
+.login-block-rt ul li div.rt {
+  width: 97px;
+}
+/* }}} */

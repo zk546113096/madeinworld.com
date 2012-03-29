@@ -5,7 +5,6 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>Index</title>
     <link rel="stylesheet" href="./sources/css/styles.css" type="text/css" media="screen" charset="utf-8">
-    <link rel="stylesheet" href="./sources/css/index.css" type="text/css" media="screen" charset="utf-8">
     <link rel="stylesheet" href="./sources/css/site.css" type="text/css" media="screen" charset="utf-8">
     <!--[if lt IE 8]>
       <link rel="stylesheet" href="./sources/css/ie6.css" type="text/css" media="screen, projection" charset="utf-8">
@@ -134,90 +133,124 @@
       <!-- }}} -->
       <!-- 内容 {{{ -->
       <div id="content">
-        <div id="register-block">
-          <h2 class="fs14 fwb lh22 color-000000">
-            个人会员注册/企业会员注册/商铺会员注册 
-          </h2> 
-          <div class="clearfix">
-            <div class="lf register-lf-block">
+        <div id="login-block" class="clearfix">
+          <div class="lf login-block-lf">
+            <h2 class="fs14 fwb lh18 color-000000">
+              已经是会员，在此登录
+            </h2> 
+            <div class="login-form">
               <form action="">
                 <div class="rows clearfix">
                   <label for="" class="lf">
-                    会员登录名： 
+                    用户名：
                   </label>
-                  <div class="rt">
-                    <input type="text" />
-                    <p>
-                      5-20字（A-Z,a-z，0-9，下划线） 
-                    </p>
-                  </div>
-                </div>
-                <div class="rows clearfix">
-                  <label for="" class="lf">
-                    E-mail：
-                  </label>
-                  <div class="rt">
-                    <input type="text" />
-                    <p>
-                    非常重要！这是客户与您联系的首选方式，并确认是您最常用的电子邮件。 
-                    </p>
+                  <div class="lf">
+                    <input class="login-text" type="text" value="用户名/电子邮箱" />
+                    <input class="login-checkbox" type="checkbox" />
+                    <span class="lf lh30">
+                      记住密码
+                    </span>
                   </div>
                 </div>
                 <div class="rows clearfix">
                   <label for="" class="lf">
                     密码：
                   </label>
-                  <div class="rt">
-                    <input type="password" />
-                    <p>
-                      6-20位，不能与用户名相同；建议为英文字母（a-z）和数字（0-9）结合。
-                    </p>
-                  </div>
-                </div>
-                <div class="rows clearfix">
-                  <label for="" class="lf">
-                    确认密码：
-                  </label>
-                  <div class="rt">
-                    <input type="password" />
-                    <p>
-                      请再输入一遍您上面填写的密码。
-                    </p>
-                  </div>
-                </div>
-                <div class="rows clearfix">
-                  <label for="" class="lf">
-                    验证码：
-                  </label>
-                  <div class="rt">
-                    验证码
-                    <p class="yzm-input">
-                      <input type="text" />
-                      <span class="ml10">输入验证码</span>
-                    </p>
-                    <p class="mt10 clearfix tiaokuan-checkbox">
-                      <input type="checkbox" class="lf" /> 
-                      <span class="lf ml10">
-                        我已看过并同意<a target="_blank" href="#" class="color-b40014">《网站服务条款》</a>
+                  <div class="lf">
+                    <p class="clearfix">
+                      <input type="password" />
+                      <span class="lf lh30 ml10">
+                        <a href="#">忘记密码？</a>
                       </span>
                     </p>
-                    <p class="mt10 tar register-btn">
-                      <input type="submit" value="" /> 
+                    <p class="clearfix pt15 login-buttons">
+                      <input type="submit" class="login-submit-btn" value="" /> 
+                      <input type="reset" class="login-reset-btn" value="" /> 
+                    </p>
+                    <p class="mt10">
+                      如果有任何问题，请您联系客服热线：400-601-5199 
                     </p>
                   </div>
                 </div>
               </form>
-            </div> 
-            <div class="rt register-rt-block">
-              <p class="fs14 lh22 color-000000">
-                已有乐歌中国帐号 
-              </p> 
-              <p class="lh22">
-                如果您已经注册了乐歌中国的会员
-              </p>
-              <p class="lh22">
-                可以<a href="#" class="color-b40014">马上登录</a>
-              </p>
+            </div>
+          </div> 
+          <div class="rt login-block-rt">
+            <h2 class="fs14 fwb lh18 color-000000">
+              还不是会员，在此免费注册
+            </h2> 
+            <ul class="clearfix">
+              <li class="lf">
+                <div class="lf">
+                  <a href="#">
+                    <img src="./sources/images/site/login-rt-01.jpg" alt="产品展示" /> 
+                  </a>
+                </div> 
+                <div class="rt">
+                  <p class="fs16">
+                    <a href="#">
+                      产品展示
+                    </a>  
+                  </p> 
+                  <p class="lh18">
+                    图文并茂展示产品信息，让买家主动找到您！
+                  </p>
+                </div>
+              </li> 
+              <li class="lf">
+                <div class="lf">
+                  <a href="#">
+                    <img src="./sources/images/site/login-rt-02.jpg" alt="在线商机" /> 
+                  </a>
+                </div> 
+                <div class="rt">
+                  <p class="fs16">
+                    <a href="#">
+                      在线商机
+                    </a>  
+                  </p> 
+                  <p class="lh18">
+                    一举名天下的互联网强力推广！
+                  </p>
+                </div>
+              </li> 
+              <li class="lf">
+                <div class="lf">
+                  <a href="#">
+                    <img src="./sources/images/site/login-rt-03.jpg" alt="代理加盟" /> 
+                  </a>
+                </div> 
+                <div class="rt">
+                  <p class="fs16">
+                    <a href="#">
+                      代理加盟
+                    </a>  
+                  </p> 
+                  <p class="lh18">
+                    代理和加盟要求，发展自己加盟商。
+                  </p>
+                </div>
+              </li> 
+              <li class="lf">
+                <div class="lf">
+                  <a href="#">
+                    <img src="./sources/images/site/login-rt-04.jpg" alt="企业新闻" /> 
+                  </a>
+                </div> 
+                <div class="rt">
+                  <p class="fs16">
+                    <a href="#">
+                      企业新闻
+                    </a>  
+                  </p> 
+                  <p class="lh18">
+                    展示企业动态，彰显企业文化！
+                  </p>
+                </div>
+              </li> 
+            </ul>
+            <div class="tac mt30">
+              <a href="#" class="login-register-btn" title="注册"></a> 
             </div>
           </div>
         </div>

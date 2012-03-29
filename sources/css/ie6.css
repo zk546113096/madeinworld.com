@@ -55,6 +55,11 @@ input.footer-email-btn {
   line-height: 17px;
 }
 /* }}} */
+/* 登录页 {{{ */
+.login-form div.rows input.login-checkbox {
+  margin-top: 5px;
+}
+/* }}} */
 /* 乐歌资源 {{{ */
 .resources-sidebar ul {
   _height: 400px;
