@@ -1,4 +1,6 @@
 $(document).ready(function() {
+  $('.list-search-text').toggleInputText();
+
   $.fn.isChildAndSelfOf = function(b) {
     return (this.closest(b).length > 0);
   };
