@@ -1,9 +1,48 @@
 $(document).ready(function() {
   $('.list-search-text').toggleInputText();
+  $('#filter-city').toggleInputText();
 
   $.fn.isChildAndSelfOf = function(b) {
     return (this.closest(b).length > 0);
   };
+
+	$('.list-select-brand a span.pa').click(function() {
+		$(this).parents('a.pl').remove();
+		return false;	
+	});
+	$('.list-select-brand a span.pa').hover(function() {
+		$(this).parents('a.pl').addClass('bd1s3264c8').removeClass('bd1scccccc');
+		return false;	
+	}, function() {
+		$(this).parents('a.pl').removeClass('bd1s3264c8').addClass('bd1scccccc');
+		return false;	
+	});
+	$('.search-menu').toggle(function() {/* 点击所有分类 {{{ */
+		$('.sub-menu').show();
+		$(document).click(function(event) {
+			if(!$(event.target).isChildAndSelfOf('#filter-cats'))	
+			$('.sub-menu').hide(); 
+		return false;
+	});
+	}, function(){
+		if($('.sub-menu').is(':visible'))
+			$('.sub-menu').hide();
+		else
+			$('.sub-menu').show();
+	});/* }}} */
+	$('.location').toggle(function() {/* 点击所在地 {{{ */
+		$('.item-list').show();
+		$(document).click(function(event) {
+			if(!$(event.target).isChildAndSelfOf('#filter-location'))	
+			$('.item-list').hide(); 
+		return false;
+	});
+	}, function(event){
+		if($('.item-list').is(':visible') && event.target.id != 'filter-city')
+			$('.item-list').hide();
+		else
+			$('.item-list').show();
+	});/* }}} */
     /* cycle 轮播 {{{ */
     $('#commodity-cycle') 
     .cycle({ 
@@ -29,5 +68,5 @@ $(document).ready(function() {
 		return false;
 	  });
 	  return false;
-	});
+	});/* }}} */
 });

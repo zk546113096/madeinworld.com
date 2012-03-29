@@ -73,3 +73,12 @@ input.footer-email-btn {
   _height: 355px;
 }
 /* }}} */
+/* 商品页 {{{ */
+.location .user-define input {
+  _height: 17px;
+  _line-height: 17px;
+}
+.location .user-define button {
+  _height: 20px;
+}
+/* }}} */

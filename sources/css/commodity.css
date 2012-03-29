@@ -300,20 +300,17 @@ body #content {
 .search-bar li {
   float: left;
 }
-.icon, .shop-view .go-left b, .tmall-price, .shop-view .go-right b, .descIcon, .ascIcon, .attr-item .close-icon, .colProp .checked s, .product-price .yun-price strong, .filter-toolbar .order .select-item, .miniarrow b, .location .select-item, .proDefault-price, .icon-flagship, .user-info .grade b, .search-bar .search-menu, .mini-qijian, #J_ItemCompareBtn, .icon-sales, .blueRight, .gradeMoreBtn {
-  background: url("http://img03.taobaocdn.com/tps/i3/T1hXWHXotqXXXXXXXX-88-100.png") no-repeat scroll 999px 999px transparent;
-}
 .search-bar .search-menu {
-  background-position: 56px -52px;
+	background: url('../images/base/icon.png') no-repeat -888px -182px;
 }
-.btnSearch-wrap {
+.btn-search-wrap {
   border: 1px solid #CCCCCC;
   float: left;
   height: 22px;
   margin-left: -1px;
   overflow: hidden;
 }
-.btnSearch {
+.btn-search {
   background: -moz-linear-gradient(#FFFFFF, #E5E5E5) repeat scroll 0 0 transparent;
   border: 0 none;
   color: #333333;
@@ -382,26 +379,25 @@ body #content {
 .location .split {
   border-top: 1px dotted #808080;
 }
-.location .userDefine {
+.location .user-define {
   padding: 8px 5px 0;
 }
-.location .userDefine input {
+.location .user-define input {
   border: 1px solid #949494;
   float: left;
   font-size: 12px;
-  height: 17px;
-  padding: 0 2px;
-  width: 89px;
+  height: 20px;
+  line-height: 20px;
+  color: #898888;
+  width: 125px;
 }
-.location .userDefine button {
+.location .user-define button {
   float: left;
   margin-left: 4px;
-  margin-top: -1px;
   vertical-align: middle;
 }
 .location .select-item {
-  background-color: #FFFFFF;
-  background-position: 50px -52px;
+	background: url('../images/base/icon.png') #ffffff no-repeat -893px -182px;
 }
 /* }}} */
 /* quick page changer {{{ */
@@ -432,10 +428,19 @@ body #content {
 .quick-page-changer .no-previous, .quick-page-changer .previous-page {
   overflow: hidden;
   text-align: center;
+  line-height: 20px;
   width: 20px;
 }
+.quick-page-changer .next-page .icon,
 .quick-page-changer .previous-page .icon {
-  background-position: -84px -25px;
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+	background: url('../images/base/icon.png') no-repeat -947px -117px;
+}
+.quick-page-changer .next-page .icon {
+	height: 11px;
+	background: url('../images/base/icon.png') no-repeat -947px -101px;
 }
 .quick-page-changer .previous-page, .quick-page-changer .next-page, .quick-page-changer .no-previous, .quick-page-changer .no-next {
   border: 1px solid #D4D4D4;
