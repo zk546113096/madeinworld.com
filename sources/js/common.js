@@ -1,14 +1,3 @@
-$(document).ready(function() {
-  $('.header-search-tabs > li').click(function() {/* 首页 搜索框 切换 {{{ */
-    $(this).addClass('current').siblings().removeClass('current');
-
-    var idx = $('.header-search-tabs > li').index(this);
-    $(this).parents('#header-search').css(
-      'background', 'url("./sources/images/base/header-search-' + idx + '.png") no-repeat' 
-    );
-    $('.header-search-blocks > li:eq(' + idx + ')').addClass('current').siblings().removeClass('current');
-    return false;
-  });/* }}} */
   $.fn.toggleInputText = function() { /* toggle input {{{ */
     var v = $(this).val(); 
     if($(this).val() == "")
@@ -21,6 +10,17 @@ $(document).ready(function() {
       }
     });
   };/* }}} */
+$(document).ready(function() {
+  $('.header-search-tabs > li').click(function() {/* 首页 搜索框 切换 {{{ */
+    $(this).addClass('current').siblings().removeClass('current');
+
+    var idx = $('.header-search-tabs > li').index(this);
+    $(this).parents('#header-search').css(
+      'background', 'url("./sources/images/base/header-search-' + idx + '.png") no-repeat' 
+    );
+    $('.header-search-blocks > li:eq(' + idx + ')').addClass('current').siblings().removeClass('current');
+    return false;
+  });/* }}} */
   $('.switch-tabs > li').mouseover(function() {/* tab 鼠标经过切换 切换 {{{ */
     $(this).addClass('current').siblings().removeClass('current');
 

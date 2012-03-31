@@ -81,4 +81,10 @@ input.footer-email-btn {
 .location .user-define button {
   _height: 20px;
 }
+.form-list input.input-text,
+#question_author_name_field,
+#question_author_email_field {
+  height: 17px;
+  line-height: 17px;
+}
 /* }}} */
