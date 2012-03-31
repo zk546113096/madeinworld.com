@@ -451,6 +451,9 @@ input.footer-email-btn {
 .pt30 {
 	padding-top: 30px;
 }
+.pt40 {
+	padding-top: 40px;
+}
 .pb15 {
 	padding-bottom: 15px;
 }
@@ -475,6 +478,9 @@ input.footer-email-btn {
 }
 .mr10 {
 	margin-right: 10px;
+}
+.mr15 {
+	margin-right: 15px;
 }
 .ml58 {
   margin-left: 58px;
@@ -638,6 +644,9 @@ input.footer-email-btn {
 .bkebebeb {
 	background: #ebebeb;
 }
+.bk000000 {
+	background: #000000;
+}
 .bkcdb9a2 {
 	background: #cdb9a2;
 }
@@ -677,6 +686,9 @@ input.footer-email-btn {
 }
 .lh35 {
 	line-height: 35px;
+}
+.lh40 {
+	line-height: 40px;
 }
 /* height */
 .h30 {

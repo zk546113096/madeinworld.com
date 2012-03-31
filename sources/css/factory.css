@@ -1,3 +1,4 @@
+/* factory index {{{ */
 .factory-search {
   background: #f7f7f7;
   padding: 0 22px 25px;
@@ -78,3 +79,70 @@
   height: 47px;
   padding: 12px 0 0 0;
 }
+/* }}} */
+/* factory list {{{ */
+.factory-list {
+  padding-bottom: 30px;
+}
+.list-sidebar {
+  width: 172px;
+}
+.list-sidebar h2 {
+  height: 40px;
+  line-height: 40px;
+  padding-left: 20px;
+}
+.list-sidebar ul li {
+  padding-left: 20px;
+  background: url('../images/base/icon.png') no-repeat 140px -226px #000000;
+  border-top: #969696 1px solid;
+}
+.list-sidebar ul li a {
+  color: #ffffff;
+  height: 34px;
+  line-height: 34px;
+  font-size: 13px;
+  font-weight: bold;
+  display: block;
+}
+.list-sidebar ul li.hover,
+.list-sidebar ul li.current {
+  background-image: none;
+  background: #960000;
+}
+.list-cont {
+  width: 815px;
+}
+.list-cont-top {
+  background: #fec6ad;
+}
+.list-cont-top div.lf {
+  width: 103px;
+  padding-right: 5px;
+  background: #836f60 url('../images/base/icon.png') no-repeat 94px -268px;
+}
+.list-cont-list li {
+  padding-bottom: 25px;
+  margin-bottom: 1px;
+}
+.list-cont-list li div.lf {
+  width: 140px;
+  margin-top: 30px;
+}
+.list-cont-list li dl {
+  width: 675px;
+}
+.list-cont-list li dl dd {
+  width: 154px;
+  height: 98px;
+  border: #ffffff 1px solid;
+  margin-top: 25px;
+}
+.list-cont-list li dl dd.hover {
+  border: #960000 1px solid;
+  margin-top: 25px;
+}
+.list-cont-list li dl dd.hover a {
+  color: #960000;
+}
+/* }}} */
