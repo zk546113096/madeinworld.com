@@ -132,6 +132,7 @@
 .list-cont-list li dl {
   width: 675px;
 }
+.list-cont-list li dl dt,
 .list-cont-list li dl dd {
   width: 154px;
   height: 98px;
