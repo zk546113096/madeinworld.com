@@ -153,3 +153,10 @@
   width: 97px;
 }
 /* }}} */
+/* chain style {{{ */
+.chian-page {
+  background: #ebebeb;
+  padding: 25px 100px 150px;
+  width: 800px;
+}
+/* }}} */
