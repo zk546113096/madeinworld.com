@@ -160,3 +160,34 @@
   width: 800px;
 }
 /* }}} */
+/* help {{{ */
+.help-block-lf {
+  width: 196px;
+}
+.help-block-lf dl {
+  background: url('../images/site/help-middle.gif') repeat-y 2px 0;
+}
+.help-block-lf dl dd {
+  padding: 10px 0;
+}
+.help-block-lf dl dt {
+  line-height: 24px;
+  padding-left: 35px;
+  background: url('../images/base/icon.png') no-repeat -925px 3px;
+}
+.help-block-rt {
+  width: 758px;
+  overflow: hidden;
+}
+.help-block-rt h2 {
+  height: 32px;
+  padding-left: 15px;
+  line-height: 30px;
+  background: url('../images/site/box-title-bg.jpg') no-repeat;
+}
+.breadcrumbs {
+    background: url("../images/base/icon.png") no-repeat -945px -218px;
+    margin: 0 0 10px;
+    padding-left: 20px;
+}
+/* }}} */
