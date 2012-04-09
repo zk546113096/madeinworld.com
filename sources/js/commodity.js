@@ -18,6 +18,8 @@ $(document).ready(function() {
 		return false;	
 	});
 	$('.search-menu').toggle(function() {/* 点击所有分类 {{{ */
+		if($('.item-list').is(':visible'))
+      $('.item-list').hide();
 		$('.sub-menu').show();
 		$(document).click(function(event) {
 			if(!$(event.target).isChildAndSelfOf('#filter-cats'))	
@@ -25,12 +27,16 @@ $(document).ready(function() {
 		return false;
 	});
 	}, function(){
+		if($('.item-list').is(':visible'))
+      $('.item-list').hide();
 		if($('.sub-menu').is(':visible'))
 			$('.sub-menu').hide();
 		else
 			$('.sub-menu').show();
 	});/* }}} */
 	$('.location').toggle(function() {/* 点击所在地 {{{ */
+		if($('.sub-menu').is(':visible'))
+      $('.sub-menu').hide();
 		$('.item-list').show();
 		$(document).click(function(event) {
 			if(!$(event.target).isChildAndSelfOf('#filter-location'))	
@@ -38,11 +44,14 @@ $(document).ready(function() {
 		return false;
 	});
 	}, function(event){
+		if($('.sub-menu').is(':visible'))
+      $('.sub-menu').hide();
 		if($('.item-list').is(':visible') && event.target.id != 'filter-city')
 			$('.item-list').hide();
 		else
 			$('.item-list').show();
 	});/* }}} */
+
     /* cycle 轮播 {{{ */
     $('#commodity-cycle') 
     .cycle({ 
@@ -63,7 +72,7 @@ $(document).ready(function() {
 			that.removeClass('current');
 			var idx = $('.commodity-switch-tabs > li').index(that);
 			$('.commodity-switch-blocks > li:eq(' + idx + ')').removeClass('current');
-		  }, 500);
+		  }, 10);
 		}
 		return false;
 	  });
