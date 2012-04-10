@@ -45,11 +45,11 @@
 }
 .resources-sidebar ul li {
   border-bottom: 1px dotted #E0DDDD;
-  margin-left: 25px;
+  margin-left: 15px;
   margin-top: 5px;
   overflow: hidden;
   padding-bottom: 5px;
-  width: 130px;
+  width: 135px;
   text-align: center;
 }
 .resources-sidebar ul li a {
@@ -58,7 +58,6 @@
   line-height: 23px;
   overflow: hidden;
   text-align: center;
-  width: 124px;
 }
 .resources-sidebar ul li.li-hover a,
 .resources-sidebar ul li.current a {
