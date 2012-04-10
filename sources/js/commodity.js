@@ -23,9 +23,8 @@ $(document).ready(function() {
 		$('.sub-menu').show();
 		$(document).click(function(event) {
 			if(!$(event.target).isChildAndSelfOf('#filter-cats'))	
-			$('.sub-menu').hide(); 
-		return false;
-	});
+        $('.sub-menu').hide(); 
+    });
 	}, function(){
 		if($('.item-list').is(':visible'))
       $('.item-list').hide();
@@ -40,9 +39,8 @@ $(document).ready(function() {
 		$('.item-list').show();
 		$(document).click(function(event) {
 			if(!$(event.target).isChildAndSelfOf('#filter-location'))	
-			$('.item-list').hide(); 
-		return false;
-	});
+        $('.item-list').hide(); 
+    });
 	}, function(event){
 		if($('.sub-menu').is(':visible'))
       $('.sub-menu').hide();
