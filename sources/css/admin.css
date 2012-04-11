@@ -1,0 +1,174 @@
+body {
+  background: url('../images/admin/body-bg.png') repeat-x;
+}
+.admin-logo-name {
+  font-size: 30px;
+}
+.admin-user-name {
+  text-decoration: underline;
+}
+.admin-header-rt {
+  width: 234px;
+}
+.admin-header-rt .header-search-text {
+  margin-top: 2px;
+}
+.admin-header-rt .header-search-btn {
+  margin: 0;
+}
+#header-cont {
+  height: 75px;
+  padding-top: 40px;
+}
+#admin-menu li a {
+  height: 26px;
+  line-height: 26px;
+  color: #ffffff;
+  float: left;
+  margin-right: 20px;
+  text-align: center;
+}
+#admin-menu li.current a {
+  width: 106px;
+  background: url('../images/admin/admin-menu-li.png') no-repeat;
+}
+.admin-sidebar {
+  width: 210px;
+}
+.admin-sidebar h2 {
+  height: 34px;
+  line-height: 34px;
+  padding-left: 78px;
+  cursor: pointer;
+  background: url('../images/admin/admin-sideber-h2-01.png') no-repeat;
+}
+.admin-sidebar h2.sidebar-h2-02 {
+  background: url('../images/admin/admin-sideber-h2-02.png') no-repeat;
+}
+.admin-sidebar h2.sidebar-h2-03 {
+  background: url('../images/admin/admin-sideber-h2-03.png') no-repeat;
+}
+.admin-sidebar h2.sidebar-h2-04 {
+  background: url('../images/admin/admin-sideber-h2-04.png') no-repeat;
+}
+.admin-sidebar ul {
+  background: #ebebeb;
+  padding: 5px 0;
+}
+.admin-sidebar ul li a {
+  display: inline-block;
+  height: 30px;
+  color: #000000;
+  line-height: 30px;
+  background-image: url('../images/admin/icon.png');
+  background-repeat: no-repeat;
+  background-position: 1px -1px;
+  padding-left: 33px;
+  margin-left: 45px;
+}
+.admin-sidebar ul li.sidebar-li-02 a {
+  background-position: 1px -31px;
+}
+.admin-sidebar ul li.sidebar-li-03 a {
+  background-position: 1px -61px;
+}
+.admin-sidebar ul li.sidebar-li-04 a {
+  background-position: 1px -91px;
+}
+.admin-sidebar ul li.sidebar-li-05 a {
+  background-position: 1px -119px;
+}
+.admin-sidebar ul li.sidebar-li-06 a {
+  background-position: 1px -151px;
+}
+.admin-sidebar ul li.sidebar-li-07 a {
+  background-position: 1px -181px;
+}
+.admin-sidebar ul li.sidebar-li-08 a {
+  background-position: 1px -213px;
+}
+.admin-sidebar ul li.sidebar-li-10 a {
+  background-position: 1px -244px;
+}
+.admin-sidebar ul li.sidebar-li-11 a {
+  background-position: 1px -284px;
+}
+.admin-sidebar ul li.sidebar-li-12 a {
+  background-position: 1px -321px;
+}
+.admin-cont {
+  width: 775px;
+}
+.admin-cont h2 {
+  height: 34px;
+  line-height: 34px;
+  background: url('../images/admin/admin-cont-top.png') repeat-x;
+}
+.admin-cont h2 span {
+  margin-left: 10px;
+  display: inline-block;
+  padding-left: 35px;
+  background: url('../images/base/icon.png') no-repeat -182px -62px;
+}
+.admin-cont table td {
+  line-height: 24px;
+  padding-bottom: 10px;
+  vertical-align: top;
+}
+.admin-cont table td.td-lf {
+  padding-right: 5px;
+  color: #000000;
+  font-weight: bold;
+}
+.admin-cont table td.td-lf strong {
+  color: #8a0e0e;
+}
+.admin-cont table td span,
+.admin-cont table td select,
+.admin-cont table td input {
+  float: left;
+}
+.admin-cont table td input {
+  width: 155px;
+  height: 24px;
+  line-height: 24px;
+  *height: 20px;
+  *line-height: 20px;
+}
+.admin-cont table td.td-lf {
+  padding-right: 5px;
+  color: #000000;
+  font-weight: bold;
+}
+.admin-cont table td.td-lf strong {
+  color: #8a0e0e;
+}
+.admin-cont table td input.td-cleckbox,
+.admin-cont table td input.td-radio,
+.admin-cont table td select {
+  width: auto;
+}
+.admin-cont table td span {
+  margin: 0 5px 0 5px;
+}
+.admin-cont table td select {
+  margin-right: 5px;
+  height: 20px;
+  margin-top: 2px;
+  width: 110px;
+}
+.admin-cont table td textarea {
+  width: 500px;
+}
+.admin-cont table td input.td-file {
+  float: none;
+}
+.admin-cont table td input.td-submit-btn {
+  width: 165px;
+  height: 30px;
+  border: 0;
+  background: url('../images/admin/form-submit.png') no-repeat;
+}
+#footer {
+  background-position: 0 0;
+}
