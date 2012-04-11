@@ -17,37 +17,33 @@ $(document).ready(function() {
 		$(this).parents('a.pl').removeClass('bd1s3264c8').addClass('bd1scccccc');
 		return false;	
 	});
-	$('.search-menu').toggle(function() {/* 点击所有分类 {{{ */
+	$('.search-menu').click(function() {/* 点击所有分类 {{{ */
 		if($('.item-list').is(':visible'))
       $('.item-list').hide();
-		$('.sub-menu').show();
-		$(document).click(function(event) {
-			if(!$(event.target).isChildAndSelfOf('#filter-cats'))	
-        $('.sub-menu').hide(); 
-    });
-	}, function(){
-		if($('.item-list').is(':visible'))
-      $('.item-list').hide();
+
 		if($('.sub-menu').is(':visible'))
 			$('.sub-menu').hide();
 		else
 			$('.sub-menu').show();
-	});/* }}} */
-	$('.location').toggle(function() {/* 点击所在地 {{{ */
-		if($('.sub-menu').is(':visible'))
-      $('.sub-menu').hide();
-		$('.item-list').show();
 		$(document).click(function(event) {
-			if(!$(event.target).isChildAndSelfOf('#filter-location'))	
-        $('.item-list').hide(); 
+			if(!$(event.target).isChildAndSelfOf('#filter-cats'))	
+        $('.sub-menu').hide(); 
     });
-	}, function(event){
+	});/* }}} */
+	$('.select-item').click(function() {/* 点击所在地 {{{ */
+		if($('.item-list').is(':visible'))
+      $('.item-list').hide();
+    else
+      $('.item-list').show();
+
 		if($('.sub-menu').is(':visible'))
       $('.sub-menu').hide();
-		if($('.item-list').is(':visible') && event.target.id != 'filter-city')
-			$('.item-list').hide();
-		else
-			$('.item-list').show();
+
+		$(document).click(function(event) {
+			if(!$(event.target).isChildAndSelfOf('#filter-location'))	{
+        $('.item-list').hide(); 
+      }
+    });
 	});/* }}} */
 
     /* cycle 轮播 {{{ */
