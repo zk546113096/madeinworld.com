@@ -172,3 +172,51 @@ body {
 #footer {
   background-position: 0 0;
 }
+.manage-btn-block a {
+  width: 87px;
+  height: 25px;
+  line-height: 25px;
+  color: #ffffff;
+  text-align: center;
+  display: inline-block;
+  background: url('../images/admin/manage-btn-bg.png') no-repeat;
+}
+.manage-prev {
+  padding-left: 10px;
+  background: url('../images/base/icon.png') no-repeat -950px -113px;
+}
+.manage-next {
+  padding-right: 10px;
+  background: url('../images/base/icon.png') no-repeat -922px -96px;
+}
+.admin-cont table.manage-table th {
+  height: 35px;
+  line-height: 35px;
+  background: #c8c8c8;
+  text-align: center;
+  color: #000000;
+  font-weight: bold;
+}
+.admin-cont table.manage-table td.tal,
+.admin-cont table.manage-table th.tal {
+  text-align: left;
+}
+.admin-cont table.manage-table td {
+  vertical-align: middle;
+  padding: 10px 10px 0 10px;
+  text-align: center;
+  background: #f4f4f4;
+}
+.bkf4f4f4 {
+  background: #f4f4f4;
+}
+.manage-btn-block a.delete-selected-btn {
+  width: 126px;
+  color: #000000;
+  background: url('../images/admin/delete-02.png') no-repeat;
+}
+.manage-btn-block a.reset-msg-btn {
+  width: 86px;
+  color: #000000;
+  background: url('../images/admin/reset.png') no-repeat;
+}
