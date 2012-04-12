@@ -191,3 +191,13 @@
     padding-left: 20px;
 }
 /* }}} */
+/* notice {{{ */
+.notice-rt h2 {
+  height: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  padding-left: 10px;
+  color: #000000;
+  background: url('../images/site/notic-h2-bg.jpg') no-repeat 0 -3px;
+}
+/* }}} */
