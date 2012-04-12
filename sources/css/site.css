@@ -153,6 +153,21 @@
   width: 97px;
 }
 /* }}} */
+/* login success {{{ */
+#login-success {
+  width: 931px;
+  margin: 0 auto;
+  height: 340px;
+  background: url('../images/site/login-success.png') no-repeat 0px 0px;
+}
+.login-success-cont {
+  padding: 79px 0 0 430px;
+}
+.login-success-link {
+  color: #cccccc;
+  text-decoration: underline;
+}
+/* }}} */
 /* chain style {{{ */
 .chian-page {
   background: #ebebeb;
