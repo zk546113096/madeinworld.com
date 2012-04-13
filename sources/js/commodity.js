@@ -21,10 +21,16 @@ $(document).ready(function() {
 		if($('.item-list').is(':visible'))
       $('.item-list').hide();
 
-		if($('.sub-menu').is(':visible'))
-			$('.sub-menu').hide();
-		else
-			$('.sub-menu').show();
+    var d = $(this).parents('div.search-bar').find('.sub-menu');
+    if($('.sub-menu').is(':visible')) {
+      $('.sub-menu').hide();
+		}
+    if(d.is(':visible')) {
+			d.hide();
+		} else {
+			d.show();
+    }
+
 		$(document).click(function(event) {
 			if(!$(event.target).isChildAndSelfOf('#filter-cats'))	
         $('.sub-menu').hide(); 
@@ -46,6 +52,13 @@ $(document).ready(function() {
     });
 	});/* }}} */
 
+    $('.post-switch-tabs > li').mouseover(function() {/* tab 切换 {{{ */
+      $(this).addClass('current').siblings().removeClass('current');
+
+      var idx = $('.post-switch-tabs > li').index(this);
+      $('.post-switch-blocks > li.switch-li:eq(' + idx + ')').addClass('current').siblings().removeClass('current');
+      return false;
+    });/* }}} */
     /* cycle 轮播 {{{ */
     $('#commodity-cycle') 
     .cycle({ 
