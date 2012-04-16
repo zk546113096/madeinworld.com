@@ -2,7 +2,7 @@
 #register-block {
   width: 926px;
   margin: 0 auto;
-  height: 528px;
+  height: 588px;
   background: url('../images/site/register-bg.jpg') no-repeat;
 }
 #register-block h2 {
@@ -143,11 +143,14 @@
   width: 360px;
   margin: 30px 57px 0 0;
 }
+.login-block-rt ul {
+  padding-top: 10px;
+}
 .login-block-rt ul li {
   width: 170px;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-right: 10px;
-  height: 70px;
+  height: 80px;
 }
 .login-block-rt ul li div.rt {
   width: 97px;
