@@ -37,7 +37,7 @@
 }
 .register-rt-block {
   width: 200px;
-} 
+}
 .tiaokuan-checkbox input.lf {
   width: auto;
   margin-top: 1px;
@@ -100,7 +100,7 @@
   margin-left: 50px;
 }
 .login-form div.rows {
-  padding-top: 30px;
+  padding-bottom: 20px;
 }
 .login-form div.rows label {
   width: 60px;
@@ -217,5 +217,9 @@
   padding-left: 10px;
   color: #000000;
   background: url('../images/site/notic-h2-bg.jpg') no-repeat 0 -3px;
+}
+.messageFailure {
+    color: red;
+    font-style: italic;
 }
 /* }}} */
